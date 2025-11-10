@@ -1,0 +1,171 @@
+# =========================
+# 🐍 PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Packaging / Distribution
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.spec
+*.manifest
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+
+# =========================
+# 🌐 DJANGO
+# =========================
+# SQLite / Logs
+*.sqlite3
+*.sqlite3-journal
+db.sqlite3
+db.sqlite3-journal
+*.log
+
+# Django local settings
+local_settings.py
+
+# Static & Media
+/static/
+staticfiles/
+media/
+
+# Uncomment below if you want to ignore migration files
+*/migrations/*.py
+!*/migrations/__init__.py
+
+
+# =========================
+# ⚙️ ENVIRONMENTS
+# =========================
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variable files
+.env
+.env.local
+.env.*.local
+*.env
+
+
+# =========================
+# 🧠 IDE / EDITORS
+# =========================
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+
+# =========================
+# 💻 OS FILES
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+
+# =========================
+# 🕒 CELERY / REDIS
+# =========================
+celerybeat-schedule
+celerybeat.pid
+*.celery
+dump.rdb
+
+
+# =========================
+# 🪵 LOGS & BACKUPS
+# =========================
+logs/
+log/
+*.log
+*.bak
+*.swp
+*.swo
+*~
