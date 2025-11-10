@@ -7,4 +7,3 @@ django-celery-beat==2.5.0
 django-celery-results==2.5.1
 python-dotenv==1.0.0
 kombu==5.3.4
-django_crontab==0.7.1
